@@ -21,10 +21,11 @@
   {"id":"B02-20160301-085","en":"SNDS-C (Supplement to a New Drug Submission - Confirmatory)","fr":"SPDN-C (Supplément à 'une présentation de drogue nouvelle - Confirmation)"},
   {"id":"B02-20160301-088","en":"UDRA (Undefined Regulatory Activity)","fr":"ARND (Activité réglementaire non définie)"},
   {"id":"B02-20160301-089","en":"YBPR (Yearly Biologic Product Report)","fr":"RAPB (Rapport annuel sur un produit biologique)"},
+  {"id":"B02-20160301-028","en":"DSUR (Developmental Safety Update Report)","fr":"RPP-D (Rapports de mises à jour aux produits en développement)"},
   {"id":"B02-20160301-018","en":"DINA (Application for Drug Identification Number)","fr":"DDIN (Demande d'identification numérique de drogue)"},
   {"id":"B02-20160301-019","en":"DINB (Application for Drug Identification Number - Biologic)","fr":"DIN-B (Demande d'identification numérique de drogue - produits biologiques)"},
   {"id":"B02-20160301-020","en":"DIND (Application for Drug Identification Number - Disinfectant Product)","fr":"DIN-D (Demande d'identification numérique de drogue - produits désinfectant)"},
-  {"id":"B02-20160301-021","en":"DINF (Application for Drug Identification Number - Category IV Monograph Product)","fr":"DIN-F (Demande d'identification numérique de drogue - produit monographique de catégorie IV)"},
+  {"id":"B02-20160301-021","en":"DINF (Application for Drug Identification Number - Category IV Product)","fr":"DIN-F (Demande d'identification numérique de drogue - produits catégorie IV)"},
   {"id":"B02-20160301-022","en":"DINV (Application for Drug Identification Number - Veterinary)","fr":"DINV (Demande d'identification numérique de drogue - Vétérinaire)"},
   {"id":"B02-20160301-043","en":"MPDIN (Pre-Submission Meeting Information - DIN)","fr":"MPDIN (Réunions préalables - DIN)"},
   {"id":"B02-20160301-070","en":"PDC (Post-Authorization Division 1 Change)","fr":"CPA (Changement post-approbation de Titre 1)"},
@@ -47,8 +48,6 @@
   {"id":"B02-20200417-01","en":"COV19 (COVID-19 Interim Order Application)","fr":"COV19 (Demande d'ordonnance provisoire COVID-19)"},
   {"id":"B02-20200417-02","en":"COV19A (COVID-19 Interim Order Ap - Amendment)","fr":"COV19A (Demande d'ordonnance provisoire COVID-19 - Modification)"},
   {"id":"B02-20201028-01","en":"MPCOV (Pre-COVID-19 For IO Application Meeting)","fr":"MPCOV (Réunion préalable pour demande d'ordonnance provisoire COVID-19)"},
-  {"id":"B02-20201214-01","en":"MPCOVA (Pre-COVID-19 For IO Application Amendment Meeting)","fr":"MPCOVA (Réunion préalable à une modification de demande d'ordonnance provisoire COVID-19)"},
-  {"id":"B02-20160301-076","en":"PRORE (Protocol Review)","fr":"PRORE (Examens de protocole)"},
-  {"id":"B02-20180522-01","en":"BE (Blood Establishment)","fr":"BE (Établissement de sang)"}
+  {"id":"B02-20201214-01","en":"MPCOVA (Pre-COVID-19 For IO Application Amendment Meeting)","fr":"MPCOVA (Réunion préalable à une modification de demande d'ordonnance provisoire COVID-19)"}
 
   ]
