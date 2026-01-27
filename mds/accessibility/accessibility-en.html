@@ -26,7 +26,7 @@
 		<!-- cssIncludes -->
 		<script>
 			document.write(wet.builder.refTop({
-				"cdnEnv": "dev"
+				"cdnEnv": "prod"
 			}));
 		</script>
 	</head>
@@ -41,7 +41,7 @@
 			defTop.outerHTML = wet.builder.top({
 				"lngLinks": [{
 					"lang": "fr",
-					"href": "mds-index-fr.html",
+					"href": "accessibility-fr.html",
 					"text": "Français"
 				}],
 				"breadcrumbs": [{
@@ -57,7 +57,7 @@
 					"title": "Regulatory enrolment process (REP)",
 					"href": "https://www.canada.ca/en/health-canada/services/drugs-health-products/drug-products/applications-submissions/guidance-documents/regulatory-enrolment-process.html"
 				}],
-				"cdnEnv": "dev"
+				"cdnEnv": "prod"
 			});
 		</script>
 		<main property="mainContentOfPage" typeof="WebPageElement" class="container">
@@ -91,7 +91,7 @@
 				var defPreFooter = document.getElementById("def-preFooter");
 				defPreFooter.outerHTML = wet.builder.preFooter({
 					"dateModified": "2026-01-16",
-					"cdnEnv": "dev",
+					"cdnEnv": "prod",
 					"showShare": false
 				});
 			</script>
@@ -104,13 +104,13 @@
 		<script>
 			var defFooter = document.getElementById("def-footer");
 			defFooter.outerHTML = wet.builder.footer({
-				"cdnEnv": "dev"
+				"cdnEnv": "prod"
 			});
 		</script>
 		<!-- Write closure template -->
 		<script>
 			document.write(wet.builder.refFooter({
-				"cdnEnv": "dev"
+				"cdnEnv": "prod"
 			}));
 		<script src="./assets/lib/xml2json.js"></script>
 		</script>
