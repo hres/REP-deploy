@@ -232,7 +232,6 @@
 	<li><a href="https://www.canada.ca/fr/gouvernement/a-propos.html">À propos de Canada.ca</a></li>
 	<li><a href="https://www.canada.ca/fr/transparence/avis.html">Avis</a></li>
 	<li><a href="https://www.canada.ca/fr/transparence/confidentialite.html">Confidentialité</a></li>
-	<li><a href="https://health-products.canada.ca/rep-pir/mds/accessibility/applicationInfo/accessibility-fr.html">Déclaration d'accessibilité</a></li>
 </ul>
 </nav>
 <div class="wtrmrk align-self-end">
@@ -257,5 +256,31 @@
 		</script>
     <!--Start add custom scripts here-->
     <script src="./assets/lib/xml2json.js"></script>
-	<link rel="modulepreload" href="chunk-PVPJ5MLK.js"><script src="polyfills-IOO3XMUJ.js" type="module"></script><script src="main-3W2QRBYH.js" type="module"></script></body>
+	<link rel="modulepreload" href="chunk-PVPJ5MLK.js"><script src="polyfills-IOO3XMUJ.js" type="module"></script><script src="main-3W2QRBYH.js" type="module"></script>
+	<script>
+		(function waitForFooter() {
+		  var footerNav = document.querySelector("#wb-info .gc-sub-footer nav ul");
+		
+		  if (!footerNav) {
+			// Footer not ready yet – try again
+			setTimeout(waitForFooter, 100);
+			return;
+		  }
+		
+		  // Prevent duplicate links
+		  if (footerNav.querySelector('a[href*="accessibility"]')) {
+			return;
+		  }
+		
+		  var li = document.createElement("li");
+		  var a = document.createElement("a");
+		
+		  a.href = "https://health-products.canada.ca/rep-pir/mds/accessibility/applicationInfo/accessibility-fr.html";
+		  a.textContent = "Déclaration d'accessibilité";
+		
+		  li.appendChild(a);
+		  footerNav.appendChild(li);
+		})();
+	</script>
+	</body>
 </html>
